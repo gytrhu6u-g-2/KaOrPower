@@ -60,7 +60,7 @@ class SoundPlay: NSObject {
             mainSoundPlayer?.play()
             mainSoundPlayer?.numberOfLoops = -1
             mainSoundPlayer?.prepareToPlay()
-            mainSoundPlayer?.volume = 0.4
+            mainSoundPlayer?.volume = 100
         }catch{
             print("BGMでエラー発生")
         }
